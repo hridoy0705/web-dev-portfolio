@@ -1,77 +1,115 @@
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
 
 
 
 
- .open-snas{
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
+     .open-snas{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
 
-  font-style: normal;
-}
-.b-img{
+    font-style: normal;
+    }
+    .b-img{
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position:top left  bottom right ;
-}
+    }
 
-/* Nav style */
-nav{
+    /* Nav style */
+    nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 50px 200px;
-}
-.nav-title{
+    } 
+    .nav-title{
     width: 800px;
     font-size: 45px;
 
-}
-.color{
+    }
+    .color{
     color:#FD6E0A;
-}
-nav ul li{
+    }
+    nav ul li{
     list-style: none;
     font-size: 20px;
     margin: 50px;
-}
-nav ul a{
+    }
+    nav ul a{
     text-decoration: none;
-}
-.dark-2{
+    }
+    .dark-2{
     color:#FD6E0A;
-}
-nav ul{
+    }
+    nav ul{
     display: flex;
     align-items: center;
-}
-.bton{
+    }
+    .bton{
     width: 100px;
     font-weight: bold;
     background-color:#FD6E0A;
     padding: 10px 10px;
     border-radius: 5px;
-}
-.pic{
+    }
+    .pic{
     width: 580px;
-}
-.baner-greetings{
+    }
+    .baner-greetings{
     font-size: 85px;
-}
-.first-title{
+    }
+    .first-title{
     font-size: 30px;
-}
-.para{
+    }
+    .para{
     font-size: 25px;
-}
-.contain{
+    }
+    .contain{
     display: flex;
     justify-content: space-between;
     margin: 0 40 0 250px;
-}
-.text-contain{
+    }
+    .text-contain{
     max-width: 580px;
     
-}
+    }
+    .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+
+    }
+    .section-descripttion{
+    color: #757575;
+    font-size: 18px;
+    }
+    .secnodary-bg{
+
+
+    }
+    main{
+    max-width: 1140px;
+    margin: 0 auto;
+    }
+    .about{
+        border-radius: 10px;
+        padding: 130px 150px;
+        text-align: center;
+        margin-top: 130px;
+    }
+    .itmes-discription{
+        font-weight: 600px;
+    }
+    .about-items{
+        display: flex;
+        justify-content: space-between;
+    }
+    .itmes-discription{
+        font-weight: bold;
+    }
+    .text-center{
+        text-align: center;
+    }
